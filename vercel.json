@@ -5,10 +5,10 @@
       "use": "@vercel/python"
     }
   ],
-  "routes": [
+  "rewrites": [
     {
-      "src": "/api/(.*)",
-      "dest": "/ToDoList.py"
+      "source": "/api/(.*)",
+      "destination": "/ToDoList.py"
     }
   ]
 }
