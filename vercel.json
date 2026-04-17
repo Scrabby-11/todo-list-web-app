@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "ToDoList.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/ToDoList.py"
+    }
+  ]
+}

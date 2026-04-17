@@ -14,3 +14,4 @@ ENV/
 # IDE
 .vscode/
 .idea/
+tasks.db
